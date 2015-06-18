@@ -1,0 +1,32 @@
+ <QHelpCollectionProject version="1.0">
+     <assistant>
+         <title>Справка моєї програми exCiton</title>
+         <startPage>qthelp://exciton/help/index.html</startPage>
+         <currentFilter>myfilter</currentFilter>
+         <applicationIcon>application.png</applicationIcon>
+         <enableFilterFunctionality>false</enableFilterFunctionality>
+         <enableDocumentationManager>false</enableDocumentationManager>
+         <enableAddressBar visible="true">true</enableAddressBar>
+         <cacheDirectory>mycompany/myapplication</cacheDirectory>
+         <aboutMenuText>
+             <text>О моей программе</text>
+             <text language="ua">Ку</text>
+         </aboutMenuText>
+         <aboutDialog>
+             <file>about.txt</file>
+             <file language="de">ueber.txt</file>
+             <icon>about.png</icon>
+         </aboutDialog>
+     </assistant>
+     <docFiles>
+         <generate>
+             <file>
+                 <input>help.qhp</input>
+                 <output>myapplication-manual.qch</output>
+             </file>
+         </generate>
+         <register>
+             <file>myapplication-manual.qch</file>
+         </register>
+     </docFiles>
+ </QHelpCollectionProject>
